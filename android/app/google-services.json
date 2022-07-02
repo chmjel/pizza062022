@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663442586000",
+    "project_id": "pizza062022",
+    "storage_bucket": "pizza062022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663442586000:android:e849480d28972453b31b15",
+        "android_client_info": {
+          "package_name": "com.olachmielewska.pizza062022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663442586000-bt1lhco0b8c0phhpdnisbp8dt58ff902.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5p0LSz5SxNeci_8op1ZsF4wItn7jaRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663442586000-bt1lhco0b8c0phhpdnisbp8dt58ff902.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
