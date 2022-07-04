@@ -32,7 +32,11 @@ class _HomePageState extends State<HomePage> {
           }
 
           if (currentIndex == 1) {
-            return const AddOpinionPageContent();
+            return AddOpinionPageContent(onSave: () {
+              setState(() {
+                currentIndex = 0;
+              });
+            });
           }
           return MyAccountPageContent(email: widget.user.email);
         }),
@@ -44,21 +48,17 @@ class _HomePageState extends State<HomePage> {
             });
           },
           items: [
-            const BottomNavigationBarItem(icon: Icon(Icons.reviews), label: 'Opinie'),
+            const BottomNavigationBarItem(
+                icon: Icon(Icons.reviews), label: 'Opinie'),
             const BottomNavigationBarItem(
               icon: Icon(Icons.add),
               label: 'Dodaj',
             ),
             const BottomNavigationBarItem(
-              icon:  Icon(Icons.person),
+              icon: Icon(Icons.person),
               label: 'Moje konto',
             ),
           ],
         ));
   }
 }
-
-
-
-
-
