@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pizza062022/app/home/add%20opinion/add_opinion_page_content.dart';
-import 'package:pizza062022/app/home/my_account/my_account_page_content.dart';
-import 'package:pizza062022/app/home/restaurants/pizza_page_content.dart';
+import 'package:pizza062022/app/features/home/add%20opinion/add_opinion_page_content.dart';
+import 'package:pizza062022/app/features/home/my_account/my_account_page_content.dart';
+import 'package:pizza062022/app/features/home/restaurants/pizza_page_content.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({

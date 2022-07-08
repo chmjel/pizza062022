@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pizza062022/app/home/restaurants/cubit/restaurants_cubit.dart';
+import 'package:pizza062022/app/features/home/restaurants/cubit/restaurants_cubit.dart';
 
 class PizzaPageContent extends StatelessWidget {
   const PizzaPageContent({
