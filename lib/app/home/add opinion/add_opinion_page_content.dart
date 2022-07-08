@@ -69,7 +69,7 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
                       });
                       widget.onSave();
                     },
-              child: Text('Dodaj'),
+              child: const Text('Dodaj'),
             )
           ],
         ),
